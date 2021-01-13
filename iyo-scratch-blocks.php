@@ -9,7 +9,7 @@ Author URI: https://www.netplan.co.jp/
 License: GPL2
 */
 
-function add_scratch_blocks() {
+function add_iyo_scratch_blocks() {
   wp_enqueue_script(
     'scratchblocks',
     'https://scratchblocks.github.io/js/scratchblocks-v3.5-min.js',
@@ -23,9 +23,9 @@ function add_scratch_blocks() {
     '3.5'
   );
 }
-add_action('wp_enqueue_scripts', 'add_scratch_blocks');
+add_action('wp_enqueue_scripts', 'add_iyo_scratch_blocks');
 
-function add_scratch_render() {
+function add_iyo_scratch_render() {
   ?>
   <script>
     scratchblocks.renderMatching(
@@ -38,4 +38,4 @@ function add_scratch_render() {
   </script>
   <?php
 }
-add_action('wp_footer', 'add_scratch_render');
+add_action('wp_footer', 'add_iyo_scratch_render');
