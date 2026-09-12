@@ -4,7 +4,7 @@ Tags: scratch, education, code, block, coderdojo
 Requires at least: 5.8
 Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,7 +43,15 @@ Currently English (`en`) and Japanese (`ja`) are enabled.
 
 Rendering happens entirely in the visitor's browser via JavaScript; no server-side processing or external requests are made.
 
+= Where can I report bugs or request features? =
+
+Please use the [GitHub issue tracker](https://github.com/kazweda/iyo-scratch-blocks/issues) for bug reports and feature requests.
+
 == Changelog ==
+
+= 1.1.2 =
+* Update Author URI to the canonical non-www URL.
+* Add a support/bug report link (GitHub issue tracker) to the FAQ.
 
 = 1.1.1 =
 * Align plugin header license declaration with GPLv2 or later and add License URI.
