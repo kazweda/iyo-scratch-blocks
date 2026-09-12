@@ -4,7 +4,7 @@ Tags: scratch, education, code, block, coderdojo
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,6 +48,10 @@ Rendering happens entirely in the visitor's browser via JavaScript; no server-si
 Please use the [GitHub issue tracker](https://github.com/kazweda/iyo-scratch-blocks/issues) for bug reports and feature requests.
 
 == Changelog ==
+
+= 1.1.5 =
+* Explicitly load scratchblocks scripts in the footer ($in_footer = true), fixing Plugin Check's WordPress.WP.EnqueuedResourceParameters.NotInFooter warnings.
+* Render the block-matching call via `wp_add_inline_script()` instead of a manual footer `<script>` tag.
 
 = 1.1.4 =
 * Add direct file access protection to the main plugin file, per Plugin Check's missing_direct_file_access_protection notice.
