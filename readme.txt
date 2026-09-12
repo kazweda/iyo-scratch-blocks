@@ -2,9 +2,9 @@
 Contributors: kazweda
 Tags: scratch, education, code, block, coderdojo
 Requires at least: 5.8
-Tested up to: 6.6
+Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,6 +48,9 @@ Rendering happens entirely in the visitor's browser via JavaScript; no server-si
 Please use the [GitHub issue tracker](https://github.com/kazweda/iyo-scratch-blocks/issues) for bug reports and feature requests.
 
 == Changelog ==
+
+= 1.1.3 =
+* Update "Tested up to" to WordPress 7.1, per Plugin Check's outdated_tested_upto_header notice.
 
 = 1.1.2 =
 * Update Author URI to the canonical non-www URL.
