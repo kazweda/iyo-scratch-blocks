@@ -3,10 +3,11 @@
 Plugin Name: Iyo Scratch Blocks
 Plugin URI: https://github.com/kazweda/iyo-scratch-blocks
 Description: Visualize Scratch Code
-Version: 1.1.0
+Version: 1.1.1
 Author: Kazuaki Ueda
 Author URI: https://www.netplan.co.jp/
-License: GPL2
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 if ( !function_exists( 'iyo_scratch_blocks' ) ) {

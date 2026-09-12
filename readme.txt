@@ -4,7 +4,7 @@ Tags: scratch, education, code, block, coderdojo
 Requires at least: 5.8
 Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,9 @@ Currently English (`en`) and Japanese (`ja`) are enabled.
 Rendering happens entirely in the visitor's browser via JavaScript; no server-side processing or external requests are made.
 
 == Changelog ==
+
+= 1.1.1 =
+* Align plugin header license declaration with GPLv2 or later and add License URI.
 
 = 1.1.0 =
 * Bundle the scratchblocks library (v3.7.1) with the plugin and load it from the plugin directory instead of an external CDN.
