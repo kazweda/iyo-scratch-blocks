@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Iyo Scratch Blocks
-Plugin URI: https://github.com/kazweda/iyo-scratch-blocks
+Plugin Name: Iyo Block Code Renderer for Scratch
+Plugin URI: https://github.com/kazweda/iyo-block-code-renderer-scratch
 Description: Visualize Scratch Code
-Version: 1.1.5
+Version: 1.1.6
 Author: Kazuaki Ueda
 Author URI: https://netplan.co.jp/
 License: GPLv2 or later

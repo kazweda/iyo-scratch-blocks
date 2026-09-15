@@ -1,4 +1,4 @@
-# iyo-scratch-blocks
+# iyo-block-code-renderer-scratch
 WordPress Plugin for Visualizing Scratch Codes
 
 ## Usage
@@ -14,7 +14,7 @@ Please change `<` or `>` to `&lt;` or `&gt;` manually.
 
 ## Releasing
 
-1. Bump the version number in `iyo-scratch-blocks.php` (`Version:` header) and `readme.txt` (`Stable tag:`), and add a changelog entry to `readme.txt`.
+1. Bump the version number in `iyo-block-code-renderer-scratch.php` (`Version:` header) and `readme.txt` (`Stable tag:`), and add a changelog entry to `readme.txt`.
 2. Commit the version bump and push to `main`.
 3. Tag the release and push the tag:
    ```sh
@@ -25,16 +25,16 @@ Please change `<` or `>` to `&lt;` or `&gt;` manually.
    ```sh
    gh release create vX.Y.Z --title "vX.Y.Z" --notes "..."
    ```
-5. Build the distributable zip in a clean staging directory, including only the files needed at runtime (`iyo-scratch-blocks.php`, `readme.txt`, `LICENSE`, `assets/`) — excluding development-only files such as `composer.json`, `composer.lock`, `vendor/`, and `.git`:
+5. Build the distributable zip in a clean staging directory, including only the files needed at runtime (`iyo-block-code-renderer-scratch.php`, `readme.txt`, `LICENSE`, `assets/`) — excluding development-only files such as `composer.json`, `composer.lock`, `vendor/`, and `.git`:
    ```sh
-   mkdir -p /tmp/build/iyo-scratch-blocks
-   cp iyo-scratch-blocks.php readme.txt LICENSE /tmp/build/iyo-scratch-blocks/
-   cp -R assets /tmp/build/iyo-scratch-blocks/
-   cd /tmp/build && zip -r -X iyo-scratch-blocks-X.Y.Z.zip iyo-scratch-blocks -x "*.DS_Store"
+   mkdir -p /tmp/build/iyo-block-code-renderer-scratch
+   cp iyo-block-code-renderer-scratch.php readme.txt LICENSE /tmp/build/iyo-block-code-renderer-scratch/
+   cp -R assets /tmp/build/iyo-block-code-renderer-scratch/
+   cd /tmp/build && zip -r -X iyo-block-code-renderer-scratch-X.Y.Z.zip iyo-block-code-renderer-scratch -x "*.DS_Store"
    ```
 6. Attach the zip to the GitHub release as a binary asset (do not commit build zips into the repository):
    ```sh
-   gh release upload vX.Y.Z /tmp/build/iyo-scratch-blocks-X.Y.Z.zip
+   gh release upload vX.Y.Z /tmp/build/iyo-block-code-renderer-scratch-X.Y.Z.zip
    ```
 
 The same zip can be used both as the plugin download for users and as the file uploaded when submitting to the WordPress.org Plugin Directory.

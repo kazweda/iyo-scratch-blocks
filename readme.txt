@@ -1,10 +1,10 @@
-=== Iyo Scratch Blocks ===
-Contributors: kazweda
+=== Iyo Block Code Renderer for Scratch ===
+Contributors: npmyj
 Tags: scratch, education, code, block, coderdojo
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.1.5
+Stable tag: 1.1.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Visualize Scratch project code as block images in your posts and pages.
 
 == Description ==
 
-Iyo Scratch Blocks lets you write Scratch-style pseudocode in your WordPress content and renders it as images of Scratch blocks, using the [scratchblocks](https://github.com/scratchblocks/scratchblocks) library.
+Iyo Block Code Renderer for Scratch lets you write Scratch-style pseudocode in your WordPress content and renders it as images of Scratch blocks, using the [scratchblocks](https://github.com/scratchblocks/scratchblocks) library.
 
 This is useful for tutorials, coding classes (such as CoderDojo), and documentation that references Scratch code.
 
@@ -22,7 +22,7 @@ This plugin bundles the scratchblocks JavaScript library (MIT License, Copyright
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/iyo-scratch-blocks` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/iyo-block-code-renderer-scratch` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. Add a `scratchblocks` class element to your content and write Scratch pseudocode inside it:
 
@@ -45,9 +45,13 @@ Rendering happens entirely in the visitor's browser via JavaScript; no server-si
 
 = Where can I report bugs or request features? =
 
-Please use the [GitHub issue tracker](https://github.com/kazweda/iyo-scratch-blocks/issues) for bug reports and feature requests.
+Please use the [GitHub issue tracker](https://github.com/kazweda/iyo-block-code-renderer-scratch/issues) for bug reports and feature requests.
 
 == Changelog ==
+
+= 1.1.6 =
+* Rename the plugin to "Iyo Block Code Renderer for Scratch" (and slug to iyo-block-code-renderer-scratch) to avoid implying affiliation with the Scratch trademark.
+* Correct the Contributors field to the current WordPress.org username (npmyj).
 
 = 1.1.5 =
 * Explicitly load scratchblocks scripts in the footer ($in_footer = true), fixing Plugin Check's WordPress.WP.EnqueuedResourceParameters.NotInFooter warnings.
